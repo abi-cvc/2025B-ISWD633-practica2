@@ -1,6 +1,8 @@
 # Variables de Entorno
 ### ¿Qué son las variables de entorno?
 # COMPLETAR
+Las variables de entorno son variables dinámicas, que tienen un nombre que les identifica y un valor. Se utilizan para la configuración de aplicaciones, sistema operativo, etc. 
+Almacenan información como rutas de directorios, configuración de aplicaciones o credenciales de bases de datos, permitiendo que la misma aplicación se ejecute de forma diferente según el entorno (desarrollo, pruebas, producción) sin necesidad de modificar su código
 
 ### Para crear un contenedor con variables de entorno
 
