@@ -15,12 +15,23 @@ docker run -d --name <nombre contenedor> -e <nombre variable1>=<valor1> -e <nomb
 # COMPLETAR
 
 # CAPTURA CON LA COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR
+<img width="1306" height="137" alt="image" src="https://github.com/user-attachments/assets/2f55dde8-f736-4cc5-93ad-ef68fba8e2bf" />
+Con docker inspect practica2
+<img width="1513" height="1290" alt="image" src="https://github.com/user-attachments/assets/480e72ce-a26c-42f2-9cf5-6c944a0f4060" />
+
+
 
 ### Crear un contenedor con la imagen de mysql, mapear todos los puertos
 # COMPLETAR
+docker pull mysql
+docker images
+docker run -d --name new_container mysql:latest
 
 ### ¿El contenedor se está ejecutando?
 # COMPLETAR
+no se está ejecutando
+<img width="2519" height="597" alt="image" src="https://github.com/user-attachments/assets/750b46e7-428b-426f-ba9f-d57d8d065b75" />
+
 
 ### Identificar el problema
 # COMPLETAR
