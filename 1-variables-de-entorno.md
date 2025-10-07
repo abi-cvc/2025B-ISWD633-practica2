@@ -49,4 +49,16 @@ no se está ejecutando
 # CAPTURA CON LA COMPROBACIÓN DE LA CREACIÓN DE LAS VARIABLES DE ENTORNO DEL CONTENEDOR ANTERIOR 
 
 ### ¿Qué bases de datos existen en el contenedor creado?
+docker run -d --name new_container -e MYSQL_ROOT_PASSWORD=admin123 -p 3306:3306 mysql:latest
+docker exec -it new_container mysql -u root -p
+
+mysql> SHOW DATABASES;
+
 # COMPLETAR
+Las bases de datos que existen en el contenedor son:
+- information_schema
+- mysql
+- performance_schema
+- sys
+
+<img width="2500" height="952" alt="image" src="https://github.com/user-attachments/assets/382e934d-2f19-46f5-95f0-2bf6fabdabe9" />
